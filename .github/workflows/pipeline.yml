@@ -99,7 +99,7 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_IMPACTA }}
       run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
         -Dsonar.qualitygate.wait=true \
-        -Dsonar.projectKey=Devops-ON \
+        -Dsonar.projectKey=Eduhkbr_Devops-ON \
         -Dsonar.branch.name=main
 
   build:

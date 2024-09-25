@@ -20,7 +20,7 @@
 		<java.version>11</java.version>
 		<sonar.organization>Eduhkbr</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.projectKey>Devops-ON</sonar.projectKey>
+		<sonar.projectKey>Eduhkbr_Devops-ON</sonar.projectKey>
 	</properties>
 
 	<dependencies>
