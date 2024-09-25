@@ -79,6 +79,9 @@ jobs:
         with:
           args: --all-projects --severity-threshold=high --sarif-file-output=snyk.sarif
 
+      - name: List files for debugging
+        run: ls -la
+        
       - name: Upload Snyk results to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v3
         with:
